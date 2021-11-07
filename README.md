@@ -121,14 +121,14 @@ screen npm start
   react-native run-android
   ```
 
-- If you pull and use the **frontend folder** from my **GitHub**, run the following commands.
+- If you pull and use the **frontend folder** from my **GitHub**, run the following commands to create a react-native project first.
 
   ```
   npx react-native init SampleApp
   ```
   
   - Enter the "SampleApp" folder, and copy the files you download in folder "frontend"  to "SampleApp"
-  - open  "SampleApp" in your windows command prompt terminal, and run the following
+  - open  folder "SampleApp" in your windows command prompt terminal, and run the following to start.
   
   ```
   react-native run-android
