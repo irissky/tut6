@@ -131,6 +131,7 @@ screen npm start
   - open  folder "SampleApp" in your windows command prompt terminal, and run the following to start.
   
   ```
+  npm install
   react-native run-android
   ```
   
