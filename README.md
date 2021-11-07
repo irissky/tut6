@@ -13,7 +13,7 @@
 - **To run Android frontend**, I recommend to run in the "frontend" folder I uploaded on the **Luminus**.
 
   - The difference is :
-    -  **[[Recommended]](url)** For files on **Luminus** , you can **directly run** in the "frontend" folder with the "react-native run-android" command.
+    -  **[[Recommended]](url)** For files on **Luminus** , you can **directly run** in the "frontend" folder with the `react-native run-android` command.
     -  For the files on **GitHub**, you need to **create react-native project** at your own side and **copy the files I provided to your project**, **install the dependencies** and run.
       
         - The reason I did not provide my own android project on Github for you to test is： Although it runs fine on my computer, when I upload it to Github and then clone to local and re-run it, it may have the following problems: 
