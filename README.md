@@ -4,17 +4,25 @@
 
 ## Download my tutorial6
 
-- git repository: clone from my git repository to your **docker environment** and **windows folder**, and see the instructions in *README.md*
+- **git repository**: clone from my git repository to your **docker environment** and **windows folder**, and see the instructions in *README.md*
 
   ```
   git clone https://github.com/irissky/tut6.git
   ```
 
-- To run Android frontend, **recommend to use the files I uploaded on the Luminus .**
+- **To run Android frontend**, I recommend to run in the "frontend" folder I uploaded on the **Luminus**.
 
   - The difference is :
-    -  For the files on GitHub, you need to create react-native project at your own side and copy the files I provided to replace your files, install the dependencies and run. 
-    - For files on Luminus , you can directly run in the "frontend" folder with the "react-native run-android" command.
+    -  **[[Recommended]](url)** For files on **Luminus** , you can **directly run** in the "frontend" folder with the "react-native run-android" command.
+    -  For the files on **GitHub**, you need to **create react-native project** at your own side and **copy the files I provided to your project**, **install the dependencies** and run.
+      
+        - The reason I did not provide my own android project on Github for you to test is： Although it runs fine on my computer, when I upload it to Github and then clone to local and re-run it, it may have the following problems: 
+        
+            -  Need to install dependencies. Different version of node may cause some problems. 
+            
+            -  It may have the problem of gradle version incompatibility.
+        
+        - Therefore, in order to avoid trouble, just use the "frontend" folder on luminus directly
 
 ## Attention
 
@@ -127,7 +135,7 @@ screen npm start
   npx react-native init SampleApp
   ```
   
-  - Enter the "SampleApp" folder, and copy the files you download in folder "frontend"  to "SampleApp"
+  - Enter the "SampleApp" folder, and copy the files you download in folder "frontend"  to "SampleApp" [**replace** if have the same name].
   - open  folder "SampleApp" in your windows command prompt terminal, and run the following to start.
   
   ```
